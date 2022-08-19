@@ -17,6 +17,7 @@ public class SortableExample {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.leafground.com/drag.xhtml;jsessionid=node0107d9y0x57yww1tmqjm42l71s069558.node0");
 		List<WebElement> total=	driver.findElements(By.xpath("//*[@id=\"form:j_idt94_data\"]/tr"));
+		//by index method
 		WebElement from=total.get(0);
 		WebElement to=total.get(1);
 		Actions action = new Actions(driver);
