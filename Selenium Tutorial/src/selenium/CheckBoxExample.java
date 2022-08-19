@@ -13,7 +13,7 @@ System.setProperty("webdriver.chrome.driver", "C:\\Users\\User\\Downloads\\chrom
 		
 		WebDriver driver = new ChromeDriver();
 		
-		driver.get("http://www.leafground.com/pages/checkbox.html");
+		driver.get("http://testleaf.herokuapp.com/pages/checkbox.html");
 		//1.To select language
 		WebElement checkbox1=	driver.findElement(By.xpath("//*[@id=\"contentblock\"]/section/div[1]/input[1]"));
 		checkbox1.click();
