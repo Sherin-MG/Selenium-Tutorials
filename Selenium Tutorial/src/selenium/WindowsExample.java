@@ -14,7 +14,7 @@ public class WindowsExample {
 		
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\User\\Downloads\\chromedriver_win32//chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-		driver.get("http://www.leafground.com/pages/Window.html");
+		driver.get("http://testleaf.herokuapp.com/pages/Window.html");
 		
 		//1.To open edit box in multiple window
 		String parentwindow=	driver.getWindowHandle();
